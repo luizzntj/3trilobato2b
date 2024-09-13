@@ -1,1 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Academia Fitness</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Academia Fitness</h1>
+    <nav>
+      <ul>
+        <li><a href="#home">Início</a></li>
+        <li><a href="#services">Serviços</a></li>
+        <li><a href="#about">Sobre Nós</a></li>
+        <li><a href="#contact">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+  
+  <div class="main-content">
+    <section id="home">
+      <h2>Bem-vindo à Academia Fitness!</h2>
+      <p>Oferecemos uma variedade de treinamentos e serviços para ajudar você a alcançar seus objetivos de saúde e fitness.</p>
+      <button>Saiba Mais</button>
+    </section>
+    
+    <section id="services">
+      <h2>Serviços</h2>
+      <p>Confira nossos serviços:</p>
+      <ul>
+        <li>Treinamento Personalizado</li>
+        <li>Aulas em Grupo</li>
+        <li>Plano de Nutrição</li>
+        <li>Sauna e Relaxamento</li>
+      </ul>
+    </section>
+    
+    <section id="about">
+      <h2>Sobre Nós</h2>
+      <p>Somos uma academia comprometida com o seu bem-estar. Nossa missão é oferecer um ambiente motivador e os melhores recursos para que você possa atingir suas metas de forma eficiente e saudável.</p>
+    </section>
+    
+    <section id="contact">
+      <h2>Contato</h2>
+      <p>Entre em contato conosco:</p>
+      <form action="submit_form.php" method="post">
+        <label for="name">Nome:</label>
+        <input type="text" id="name" name="name" required>
+        
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        
+        <label for="message">Mensagem:</label>
+        <textarea id="message" name="message" rows="4" required></textarea>
+        
+        <input type="submit" value="Enviar">
+      </form>
+    </section>
+  </div>
 
+  <footer>
+    <p>&copy; 2024 Academia Fitness. Todos os direitos reservados.</p>
+  </footer>
+</body>
+</html>
