@@ -1,129 +1,47 @@
-/* Reset básico para garantir consistência entre navegadores */
-* {
+body {
+    font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
-  }
-  
-  body {
-    font-family: Arial, sans-serif;
-    color: #f5f5f5; /* Cor de texto clara para contraste */
-    background-color: #000000; /* Cor de fundo preta */
-  }
-  
-  header {
-    background-color: #009900; /* Verde para o cabeçalho */
-    color: #ffffff; /* Texto branco para contraste */
-    padding: 20px;
-    text-align: center;
-  }
-  
-  header h1 {
-    font-size: 2.5em;
-    margin-bottom: 10px;
-  }
-  
-  nav {
-    margin-top: 10px;
-  }
-  
-  nav ul {
-    list-style-type: none;
-  }
-  
-  nav ul li {
-    display: inline;
-    margin: 0 15px;
-  }
-  
-  nav ul li a {
-    text-decoration: none;
-    color: #ffffff; /* Cor do link branca */
-    font-weight: bold;
-  }
-  
-  nav ul li a:hover {
-    text-decoration: underline;
-  }
-  
-  .main-content {
-    padding: 20px;
-  }
-  
-  h2 {
-    color: #009900; /* Verde para subtítulos */
-    margin-bottom: 15px;
-  }
-  
-  section {
-    margin-bottom: 20px;
-  }
-  
-  footer {
-    background-color: #009900; /* Verde para o rodapé */
-    color: #ffffff; /* Texto branco para contraste */
-    text-align: center;
-    padding: 10px;
-    position: absolute;
-    width: 100%;
-    bottom: 0;
-  }
-  
-  button {
-    background-color: #009900; /* Verde para botões */
-    color: #ffffff; /* Texto branco */
-    border: none;
-    padding: 10px 20px;
-    font-size: 1em;
-    cursor: pointer;
-    border-radius: 5px;
-  }
-  
-  button:hover {
-    background-color: #007700; /* Tom mais escuro de verde ao passar o mouse */
-  }
-  
-  input[type="text"], input[type="email"], textarea {
-    width: 100%;
-    padding: 10px;
-    border: 1px solid #009900; /* Bordas verdes */
-    border-radius: 5px;
-    background-color: #000000; /* Fundo preto para campos de entrada */
-    color: #ffffff; /* Texto branco para contraste */
-  }
-  
-  input[type="submit"] {
-    background-color: #009900; /* Verde para botões de envio */
-    color: #ffffff; /* Texto branco */
-    border: none;
-    padding: 10px 20px;
-    font-size: 1em;
-    cursor: pointer;
-    border-radius: 5px;
-  }
-  
-  input[type="submit"]:hover {
-    background-color: #007700; /* Tom mais escuro de verde ao passar o mouse */
-  }
-  body {
-    margin: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    background-color: #f0f0f0;
+    background-color: #f8f8f8;
 }
 
-.banner {
-    padding: 20px;
+header {
     background-color: #4CAF50;
     color: white;
-    border-radius: 8px;
-    cursor: pointer;
-    transition: background-color 0.3s;
+    padding: 10px 20px;
+    text-align: center;
 }
 
-.banner:hover {
-    background-color: #45a049;
+nav ul {
+    list-style-type: none;
+    padding: 0;
 }
 
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+}
+
+.produto {
+    background-color: white;
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 5px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+}
