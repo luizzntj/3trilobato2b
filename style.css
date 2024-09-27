@@ -28,7 +28,7 @@ nav ul li a {
 }
 
 .banner {
-    background-color: #e2221c;
+    background-color: #020202;
     color: white;
     padding: 50px 20px;
     text-align: center;
@@ -37,7 +37,7 @@ nav ul li a {
 }
 
 .banner:hover {
-    background-color: #d01e1a;
+    background-color: #080808;
 }
 
 main {
