@@ -4,45 +4,54 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Loja de Esportes</title>
+    <title>Loja de Roupas do Corinthians</title>
 </head>
 <body>
     <header>
-        <h1>Loja de Esportes</h1>
+        <h1>Loja do Corinthians</h1>
         <nav>
             <ul>
+                <li><a href="#banner">Início</a></li>
                 <li><a href="#produtos">Produtos</a></li>
                 <li><a href="#contato">Contato</a></li>
             </ul>
         </nav>
     </header>
+    
+    <section id="banner" class="banner" onclick="changeBannerText()">
+        <h2 id="bannerText">Orgulho de Ser Corinthiano!</h2>
+    </section>
+    
     <main>
         <section id="produtos">
             <h2>Nossos Produtos</h2>
             <div class="produto">
-                <h3>Chuteira</h3>
-                <p>Preço: R$ 199,90</p>
-                <button onclick="adicionarAoCarrinho('Chuteira')">Adicionar ao Carrinho</button>
+                <h3>Camisa Oficial</h3>
+                <p>Preço: R$ 249,90</p>
+                <button onclick="adicionarAoCarrinho('Camisa Oficial')">Adicionar ao Carrinho</button>
             </div>
             <div class="produto">
-                <h3>Bolsa de Esportes</h3>
-                <p>Preço: R$ 99,90</p>
-                <button onclick="adicionarAoCarrinho('Bolsa de Esportes')">Adicionar ao Carrinho</button>
-            </div>
-            <div class="produto">
-                <h3>Raquete de Tênis</h3>
+                <h3>Jaqueta do Corinthians</h3>
                 <p>Preço: R$ 299,90</p>
-                <button onclick="adicionarAoCarrinho('Raquete de Tênis')">Adicionar ao Carrinho</button>
+                <button onclick="adicionarAoCarrinho('Jaqueta do Corinthians')">Adicionar ao Carrinho</button>
+            </div>
+            <div class="produto">
+                <h3>Boné Corinthians</h3>
+                <p>Preço: R$ 89,90</p>
+                <button onclick="adicionarAoCarrinho('Boné Corinthians')">Adicionar ao Carrinho</button>
             </div>
         </section>
+        
         <section id="contato">
             <h2>Contato</h2>
-            <p>Email: contato@lojaesportes.com</p>
+            <p>Email: contato@lojadocorinthians.com</p>
         </section>
     </main>
+    
     <footer>
-        <p>&copy; 2024 Loja de Esportes</p>
+        <p>&copy; 2024 Loja de Roupas do Corinthians</p>
     </footer>
+    
     <script src="script.js"></script>
 </body>
 </html>

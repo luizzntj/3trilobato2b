@@ -6,7 +6,7 @@ body {
 }
 
 header {
-    background-color: #4CAF50;
+    background-color: #000;
     color: white;
     padding: 10px 20px;
     text-align: center;
@@ -27,6 +27,19 @@ nav ul li a {
     text-decoration: none;
 }
 
+.banner {
+    background-color: #e2221c;
+    color: white;
+    padding: 50px 20px;
+    text-align: center;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.banner:hover {
+    background-color: #d01e1a;
+}
+
 main {
     padding: 20px;
 }
@@ -42,6 +55,6 @@ main {
 footer {
     text-align: center;
     padding: 10px;
-    background-color: #4CAF50;
+    background-color: #000;
     color: white;
 }
