@@ -65,3 +65,24 @@
   </footer>
 </body>
 </html>
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Banner Interativo</title>
+</head>
+<body>
+    <div class="banner" onclick="changeText()">
+        <h1 id="bannerText">Bem-vindo ao meu site!</h1>
+    </div>
+    <script>
+        function changeText() {
+            const bannerText = document.getElementById('bannerText');
+            bannerText.innerText = bannerText.innerText === "Bem-vindo ao meu site!" ? "Explore e divirta-se!" : "Bem-vindo ao meu site!";
+        }
+    </script>
+</body>
+</html>
+
