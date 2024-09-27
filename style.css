@@ -105,4 +105,25 @@
   input[type="submit"]:hover {
     background-color: #007700; /* Tom mais escuro de verde ao passar o mouse */
   }
-  
+  body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+
+.banner {
+    padding: 20px;
+    background-color: #4CAF50;
+    color: white;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.banner:hover {
+    background-color: #45a049;
+}
+
